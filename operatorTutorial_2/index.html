@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Operator_Tutorail_2</title>
+</head>
+<body>
+
+    <script src="operators_tutorial.js"></script>
+    <script>
+        var  x = 'orange', y = 'apple';
+
+        var operatorTutorial = new OperatorTutorail();
+
+        console.log(operatorTutorial.assignment(y));
+
+        //The addition operator produces the sum of numeric operands or string concatenation.
+        console.log(operatorTutorial.additionAssignment(x, y));
+        console.log(operatorTutorial.additionAssignment(x, 7));
+
+        console.log(operatorTutorial.subtractionAssignment(12, 7));
+        console.log(operatorTutorial.multiplicationAssignment(3, 5));
+        console.log(operatorTutorial.divisionAssignment(6, 2));
+        console.log(operatorTutorial.remainderAssignment(2, 3));
+        console.log(operatorTutorial.exponentiationAssignment(2, 3));
+        console.log(operatorTutorial.leftShiftAssignment(9, 3));
+        console.log(operatorTutorial.rightShiftAssignment(9, 3));
+        console.log(operatorTutorial.unSingedRightShiftAssignment(9, 3));
+        console.log(operatorTutorial.bitwiseAndAssignment(9, 3));
+        console.log(operatorTutorial.bitwiseOrAssignment(9, 3));
+        console.log(operatorTutorial.bitwiseXOrAssignment(9, 3));
+    </script>
+</body>
+</html>
